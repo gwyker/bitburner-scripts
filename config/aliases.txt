@@ -1,0 +1,6 @@
+alias con="home;run /utilities/connect.js"
+alias check="home;run /utilities/check_server.js"
+alias list="home;run /utilities/list_servers.js
+alias find_contracts="home;run /utilities/find_contracts.js"
+alias list_servers="home;run /utilities/list_servers.js"
+mon="run /monitor/server_monitor.js"

@@ -1,0 +1,19 @@
+/** @param {NS} ns **/
+export async function main(ns) {
+
+}
+
+export function connectToServer(ns, server) {
+    const path = "connect hong-fang-tea; connect CSEC"
+
+    const terminalInput = document.getElementById("terminal-input");
+    terminalInput.value = `home;${path}`;
+                
+    const handler = Object.keys(terminalInput)[1];
+    terminalInput[handler].onChange({target:terminalInput});
+    terminalInput[handler].onKeyDown({keyCode:13,preventDefault:()=>null});
+}
+
+export function getServerPath(ns, server) {
+
+}
